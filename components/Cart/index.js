@@ -67,7 +67,7 @@ const Cart = () => {
               : null}
 
             <div>
-              <Badge style={{ width: 200, padding: 10 }} color="light">
+              <Badge style={{ width: "100%", padding: 10 }} color="light">
                 <h5 style={{ fontWeight: 100, color: "gray" }}>合計：</h5>
                 <h3 style={{ color: "black" }}>{cart.total}円</h3>
               </Badge>
